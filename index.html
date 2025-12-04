@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roam Photo Galleries</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .gallery-list {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .gallery-item {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .gallery-item:last-child {
+            border-bottom: none;
+        }
+        .gallery-item:hover {
+            background: #f8f9fa;
+        }
+        .gallery-name {
+            font-size: 18px;
+            font-weight: 500;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .gallery-name:hover {
+            text-decoration: underline;
+        }
+        .gallery-date {
+            color: #6c757d;
+            font-size: 14px;
+        }
+        .no-galleries {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Roam Photo Galleries</h1>
+    <div class="gallery-list">
+        <div class="gallery-item">
+            <a href="dec-2024-test/index.html" class="gallery-name">dec-2024-test</a>
+            <span class="gallery-date">2025-12-04 11:40:43</span>
+        </div>
+        <div class="gallery-item">
+            <a href="test-export/index.html" class="gallery-name">test-export</a>
+            <span class="gallery-date">2025-12-04 11:40:19</span>
+        </div>
+    </div>
+    <footer>
+        <p>© Copyright UniYatra Group, LLC 2025 - info@uniyatra.com</p>
+        <p>Last updated: 2025-12-04 11:40:43</p>
+    </footer>
+</body>
+</html>
